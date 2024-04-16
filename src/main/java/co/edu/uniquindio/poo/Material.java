@@ -7,7 +7,7 @@ public enum Material {
     ASFALTO(40.000);
 
     // Declaración de los materiales junto con sus valores por metro cuadrado
-    private final double valorMetroCuadrado;
+    public double valorMetroCuadrado;
 
     private Material(double valorMetroCuadrado) {
         this.valorMetroCuadrado = valorMetroCuadrado;
