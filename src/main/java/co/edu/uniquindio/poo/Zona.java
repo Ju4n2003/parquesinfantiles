@@ -1,6 +1,6 @@
 package co.edu.uniquindio.poo;
 
-public abstract class Zona {
+public class Zona {
     private String nombreFigura;
     private Material material;
 
