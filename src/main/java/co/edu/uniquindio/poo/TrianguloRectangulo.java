@@ -3,7 +3,7 @@ package co.edu.uniquindio.poo;
 public class TrianguloRectangulo extends Figura {
     private double base;
     private double altura;
-
+    public double areaTrianguloRectangulo;
     public TrianguloRectangulo(String nombre, double base, double altura) {
         
         this.base = base;
@@ -13,7 +13,8 @@ public class TrianguloRectangulo extends Figura {
     public double calcularAreaTrianguloRectangulo() {
         assert base >= 0;
         assert altura >= 0;
-        return (base * altura) / 2;
+        double areaTrianguloRectangulo = (base * altura) / 2;
+        return areaTrianguloRectangulo;
     }
 
     @Override

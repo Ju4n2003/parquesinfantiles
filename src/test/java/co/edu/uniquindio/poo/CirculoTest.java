@@ -10,7 +10,7 @@ public class CirculoTest {
     @Test
     public void radioPositivo() {
         Circulo circulo = new Circulo("circulo", 10);
-        assertEquals(314.1592653589793, circulo.calcularAreaCiculo());
+        assertEquals(314.1592653589793, circulo.calcularAreaCirculo());
     }
 
     @Test
